@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+//custom hook
 function useCounter(initialValue) {
   const [count, setCount] = useState(initialValue);
 
