@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-//custom hook - freshman -ok
+//custom hook - freshman -ok2
 function useCounter(initialValue) {
   const [count, setCount] = useState(initialValue);
 
