@@ -31,5 +31,5 @@ function Accommodate(props) {
     </div>
   );
 }
-
+//useEffect 훅을 사용하여 컴포넌트가 렌더링될 때마다 특정 작업을 수행할 수 있습니다.
 export default Accommodate;
