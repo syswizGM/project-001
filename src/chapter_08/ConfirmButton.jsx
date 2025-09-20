@@ -3,10 +3,12 @@ import React, { useState } from "react";
 function ConfirmButton() {
   const [isConfirmed, setIsConfirmed] = useState(false);
 
-  const handleClick = () => setIsConfirmed(true);
+  const handleConfirm = () => {
+    setIsConfirmed((preIsConfirmed) => !preIsConfirmed);
+  };
 
   return (
-    <button onClick={handleClick} disabled={isConfirmed}>
+    <button onClick={handleConfirm} disabled={isConfirmed}>
       {isConfirmed ? "확인됨" : "확인"}
     </button>
   );
