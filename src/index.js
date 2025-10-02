@@ -10,7 +10,7 @@ import ConfirmButton from "./chapter_08/ConfirmButton.jsx";
 import AttendanceBook from "./chapter_08/AttendanceBook.jsx";
 import RequestForm from "./chapter_08/RequestForm.jsx";
 import FruitSelect from "./chapter_08/FruitSelect.jsx";
-import Reservation from "./chapter_08/Reservation.js";
+import Reservation from "./chapter_08/Reservation.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
